@@ -7,7 +7,6 @@ import asyncio
 
 # ============================================ Func 1 =====================================================
 
-# Enable caching to avoid redundant requests (cached for 5 minutes)
 requests_cache.install_cache("tgju_cache", expire_after=300)  
 
 def calculate_18k_gold_price_toman_1():
